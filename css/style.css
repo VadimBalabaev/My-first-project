@@ -1,0 +1,252 @@
+@font-face {
+    font-family: "Couture";
+    src: url(/MyPortfolio/3.6/fonts/couture-bld.otf)
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.889;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: "Montserrat";
+    color: rgb(198, 35, 20);
+    font-weight: bold;
+    line-height: 1.333;
+}
+
+h3 {
+    font-size: 50px;
+    font-family: "Montserrat";
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1011px;
+    margin: 0 auto;
+}
+
+.menu {
+    background: url(../img/Background-menu.png)no-repeat fixed #b40000de;
+    background-size: cover;
+}
+
+.inner {
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 134px 0;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    text-transform: uppercase;
+}
+
+.nav li a {
+    font-size: 18px;
+    padding: 0 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.nav li {
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+
+.nav li:hover {
+    background-color: #130e27;
+}
+
+.menu__title {
+    padding-left: 20px;
+}
+
+.title__one {
+    color: #130e27;
+}
+
+.title__two {
+    padding: 0 0 48px 0;
+    color: #fff;
+}
+
+.title__text {
+    max-width: 475px;
+    font-family: "PT Serif";
+    color: rgb(255, 255, 255);
+    line-height: 1.4;
+    padding-bottom: 161px;
+}
+
+.services {
+    background-color: #fff;
+}
+
+.services__title {
+    display: flex;
+    text-transform: uppercase;
+    padding: 45px 0 97px 20px;
+}
+
+.services__title li {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "Couture";
+    color: #130e27;
+    font-weight: bold;
+}
+
+.services__title li:nth-child(1) {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "Couture";
+    color: rgb(198, 35, 20);
+    font-weight: bold;
+    padding-right: 18px;
+
+}
+
+.character {
+    text-align: center;
+    max-width: 176px;
+}
+
+.fa {
+    font-size: 162px;
+    color: #130e27;
+}
+
+.character__text {
+    font-size: 20px;
+    color: rgb(22, 22, 22);
+    line-height: 1.4;
+    padding: 50px 0 73px 0;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    background: #130e27;
+    color: #efefef;
+    min-height: 120px;
+}
+
+.info__text {
+    max-width: 617px;
+    margin: auto 0;
+}
+
+.button__info {
+    text-transform: uppercase;
+    padding: 24px 65px;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: "Montserrat";
+    line-height: 1.273;
+    font-weight: 400;
+}
+
+.pricing {
+    background-color: #efefef;
+    text-align: center;
+}
+
+.pricing__name {
+    padding-top: 66px;
+    text-transform: uppercase;
+}
+
+.pricing__block {
+    text-align: center;
+    background-color: #fff;
+    width: 318px;
+    min-height: 389px;
+    border-radius: 5px;
+    margin: 45px 0 64px 0;
+}
+
+.pricing__title {
+    font-size: 22px;
+    padding: 34px 0 27px 0;
+}
+
+.pricing__text {
+    padding: 10px 0 20px 0;
+}
+
+.pricing__button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 20px 60px;
+    text-align: center;
+    background-color: #130e27;
+    border-radius: 5px;
+}
+
+.pricing__button:hover {
+    background-color: #c62314;
+}
+
+.end {
+    color: #fff;
+    background-color: #130e27;
+}
+
+.end__info {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 89px 0;
+}
+
+.end__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.end__text {
+    padding-right: 4px;
+}
+
+.end__list li:nth-child(4) {
+    color: #c62314;
+}
